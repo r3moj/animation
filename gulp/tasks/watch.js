@@ -30,15 +30,6 @@ gulp.task('watch', (done) => {
       ],
       gulp.series("copy")
     );
-      // Copy
-    gulp.watch(
-      [
-        `${dirs.source}/**/**/*`,
-        `!${dirs.source}/{**/\_*,**/\_*/**}`,
-        `!${dirs.source}/**/*.nunjucks`
-      ],
-      gulp.series("copy-js")
-    );
 
     // Images
     gulp.watch([
