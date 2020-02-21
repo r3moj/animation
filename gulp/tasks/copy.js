@@ -6,6 +6,7 @@ import { plugins, args, config, taskTarget, browserSync } from '../utils';
 
 let dirs = config.directories;
 let dest = path.join(taskTarget);
+console.log(dest);
 
 // Copy
 gulp.task('copy', () => {
@@ -16,4 +17,13 @@ gulp.task('copy', () => {
   ], { cwd: dirs.source })
   .pipe(plugins.changed(dest))
   .pipe(gulp.dest(dest));
+});
+
+// Copy
+gulp.task('copy-js', () => {
+  return gulp.src([
+    '_scripts/**/*',
+  ], { cwd: dirs.source })
+  .pipe(plugins.changed(dest))
+  .pipe(gulp.dest(dest+'/scripts'));
 });

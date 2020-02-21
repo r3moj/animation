@@ -22,11 +22,23 @@ gulp.task('watch', (done) => {
     
 
     // Copy
-    gulp.watch([
-      `${dirs.source}/**/*`,
-      `!${dirs.source}/{**/\_*,**/\_*/**}`,
-      `!${dirs.source}/**/*.nunjucks`
-    ], gulp.series('copy'));
+    gulp.watch(
+      [
+        `${dirs.source}/**/*`,
+        `!${dirs.source}/{**/\_*,**/\_*/**}`,
+        `!${dirs.source}/**/*.nunjucks`
+      ],
+      gulp.series("copy")
+    );
+      // Copy
+    gulp.watch(
+      [
+        `${dirs.source}/**/**/*`,
+        `!${dirs.source}/{**/\_*,**/\_*/**}`,
+        `!${dirs.source}/**/*.nunjucks`
+      ],
+      gulp.series("copy-js")
+    );
 
     // Images
     gulp.watch([
@@ -34,10 +46,13 @@ gulp.task('watch', (done) => {
     ], gulp.series('imagemin'));
 
     // All other files
-    gulp.watch([
-      `${dirs.temporary}/**/*`,
-      `!${dirs.temporary}/**/*.{css,map,html,js}`,
-    ]).on('change', browserSync.reload);
+    gulp
+      .watch([
+        `${dirs.temporary}/**/*`,
+        `${dirs.temporary}/**/**/*`,
+        `!${dirs.temporary}/**/*.{css,map,html,js}`
+      ])
+      .on("change", browserSync.reload);
   }
   done();
 });

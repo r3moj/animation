@@ -3,6 +3,7 @@
   "version": "0.0.1",
   "dependencies": {
     "jquery": "~3.4.1",
+    "jquery.ripples": "0.6.3",
     "normalize.css": "~8.0.1"
   },
   "devDependencies": {
@@ -55,7 +56,8 @@
     "imagemin-pngquant": "~7.0.0",
     "js-yaml": "~3.13.0",
     "watchify": "~3.11.0 ",
-    "browserify": "~16.3.0"
+    "browserify": "~16.3.0",
+    "rellax": "1.12.1"
   },
   "scripts": {
     "clean-deps": "npx rimraf node_modules",
@@ -96,8 +98,8 @@
       "data": "_data"
     },
     "entries": {
-      "js": "main**.js",
-      "css": "main**.{sass,scss}"
+      "js": "**/**.js",
+      "css": "**.{sass,scss}"
     }
   }
 }

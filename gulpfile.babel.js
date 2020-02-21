@@ -16,6 +16,7 @@ glob.sync('./gulp/tasks/**/*.js').filter(function(file) {
 gulp.task('build', gulp.series(
   gulp.parallel(
     'copy',
+    'copy-js',
     'imagemin',
     'nunjucks',
     'sass',
@@ -29,6 +30,7 @@ gulp.task('serve', gulp.series(
   gulp.parallel(
     'imagemin',
     'copy',
+    'copy-js',
     'nunjucks',
     'sass',
     'browserify',

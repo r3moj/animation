@@ -1,0 +1,17 @@
+{# Custom Configuration #} {% block config %} {# Setup site's base URL to match
+the "baseUrl" key within `package.json` #} {# Otherwise default to relative
+pathing #} {% set baseUrl = config.baseUrl or './' %} {% endblock %}
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Fruit parallax animation</title>
+    <link rel="stylesheet" type="text/css" href="/styles/fruitparallax.css" />
+  </head>
+  <body>
+    <!-- partial:index.partial.html -->
+    {% block content %}{% endblock %}
+    <!-- partial -->
+  </body>
+</html>

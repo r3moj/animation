@@ -1,0 +1,23 @@
+{# Custom Configuration #} {% block config %} {# Setup site's base URL to match
+the "baseUrl" key within `package.json` #} {# Otherwise default to relative
+pathing #} {% set baseUrl = config.baseUrl or './' %} {% endblock %}
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Fruit slider animation</title>
+    <link rel="stylesheet" href="https://use.typekit.net/fex2uvn.css" />
+    <link rel="stylesheet" type="text/css" href="/styles/fruitslider.css" />
+  </head>
+  <body>
+    <!-- partial:index.partial.html -->
+    {% block content %}{% endblock %}
+    <!-- partial -->
+    <script src="/scripts/fruitslider/three.js"></script>
+    <script src="/scripts/fruitslider/dat-gui.js"></script>
+    <script src="/scripts/fruitslider/gsap.js"></script>
+    <script src="/scripts/fruitslider/sketch.js"></script>
+    <script src="/scripts/fruitslider/demo1.js"></script>
+  </body>
+</html>

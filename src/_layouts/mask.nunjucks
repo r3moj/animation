@@ -1,0 +1,30 @@
+{# Custom Configuration #}
+{% block config %}
+  {# Setup site's base URL to match the "baseUrl" key within `package.json` #}
+  {# Otherwise default to relative pathing #}
+  {% set baseUrl = config.baseUrl or './' %}
+{% endblock %}
+
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Mask animation</title>
+  <!-- <link rel="stylesheet" href="../mask/style.css"> -->
+  <link rel="stylesheet" href="/styles/mask.css"/>
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+ {% block content %}{% endblock %}
+<!-- partial -->
+  <script src='/scripts/mask/TweenMax.min.js'></script>
+  <script src='/scripts/mask/DrawSVGPlugin.min.js'></script>
+  <script  src="/scripts/mask/script.js"></script>
+
+</body>
+</html>
+
+
+
+

@@ -1,0 +1,5 @@
+{% extends '_layouts/water.nunjucks' %} 
+
+{% block content %}
+<img src="/images/water/01-ACQUA.jpg" alt="" />
+{% endblock %}
