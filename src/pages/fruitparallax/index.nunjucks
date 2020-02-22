@@ -1,0 +1,528 @@
+{% extends '_layouts/fruitparallax.nunjucks' %} 
+
+{% block content %}
+ <div class="grid">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-offset-1 col-md-2">
+            <div class="grid-line"></div>
+          </div>
+          <div class="col-md-2">
+            <div class="grid-line"></div>
+          </div>
+          <div class="col-md-2">
+            <div class="grid-line"></div>
+          </div>
+          <div class="col-md-2">
+            <div class="grid-line"></div>
+          </div>
+          <div class="col-md-2">
+            <div class="grid-line" style="margin-right:-30px;border-right:1px solid #ccc"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="fixed-top rellax" data-rellax-speed="-2"
+      style="transform: rotate(45deg);"
+    >
+    </div>
+
+    <main class="main">
+      <section class="section san-francisco">
+        <div class="absolute">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-offset-1 col-md-11">
+                <h2 class="rellax" data-rellax-speed="-3">San Francisco<br>California</h2>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="absolute above">
+          <div class="container">
+            <div class="row">
+
+              <div class="col-md-offset-1 col-md-2">
+                <div class="lg-green rellax"
+                  data-rellax-speed="2"
+                  style="transform: rotate(45deg);">
+                </div>
+                <div class="sm-green rellax"
+                  data-rellax-speed="5"
+                  style="transform: rotate(45deg);">
+                </div>
+              </div>
+
+              <div class="col-md-offset-2 col-md-1">
+                <div class="sm-purple rellax"
+                  data-rellax-speed="2"
+                  style="transform: rotate(45deg);">
+                </div>
+              </div>
+
+              <div class="col-md-offset-3 col-md-1">
+                <div class="xs-green rellax"
+                  data-rellax-speed="5"
+                  style="transform: rotate(45deg);">
+                </div>
+                <div class="md-green rellax"
+                  data-rellax-speed="1"
+                  style="transform: rotate(45deg);">
+                </div>
+              </div>
+
+              <div class="col-md-1">
+                <div class="lg-purple rellax"
+                  data-rellax-speed="3"
+                  style="transform: rotate(45deg);">
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+
+
+        <div class="container">
+
+          <div class="row">
+            <div class="col-md-offset-1 col-md-5">
+              <div class="date">
+                Incorporated—<br>
+                1850<br><br>
+                37°47′N 122°25′W
+              </div>
+            </div>
+            <div class="col-md-offset-1 col-md-4">
+              <div class="temp">
+                68°
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+      </section>
+
+
+      <section class="section">
+
+      </section>
+         <section class="section san-francisco">
+        <div class="absolute">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-offset-1 col-md-11">
+                <h2 class="rellax" data-rellax-speed="-3">San Francisco<br>California</h2>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="absolute above">
+          <div class="container">
+            <div class="row">
+
+              <div class="col-md-offset-1 col-md-2">
+                <div class="lg-green rellax"
+                  data-rellax-speed="2"
+                  style="transform: rotate(45deg);">
+                </div>
+                <div class="sm-green rellax"
+                  data-rellax-speed="5"
+                  style="transform: rotate(45deg);">
+                </div>
+              </div>
+
+              <div class="col-md-offset-2 col-md-1">
+                <div class="sm-purple rellax"
+                  data-rellax-speed="2"
+                  style="transform: rotate(45deg);">
+                </div>
+              </div>
+
+              <div class="col-md-offset-3 col-md-1">
+                <div class="xs-green rellax"
+                  data-rellax-speed="5"
+                  style="transform: rotate(45deg);">
+                </div>
+                <div class="md-green rellax"
+                  data-rellax-speed="1"
+                  style="transform: rotate(45deg);">
+                </div>
+              </div>
+
+              <div class="col-md-1">
+                <div class="lg-purple rellax"
+                  data-rellax-speed="3"
+                  style="transform: rotate(45deg);">
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+
+
+        <div class="container">
+
+          <div class="row">
+            <div class="col-md-offset-1 col-md-5">
+              <div class="date">
+                Incorporated—<br>
+                1850<br><br>
+                37°47′N 122°25′W
+              </div>
+            </div>
+            <div class="col-md-offset-1 col-md-4">
+              <div class="temp">
+                68°
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+      </section>
+
+
+      <section class="section">
+
+      </section>
+       
+          <section class="section san-francisco">
+        <div class="absolute">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-offset-1 col-md-11">
+                <h2 class="rellax" data-rellax-speed="-3">San Francisco<br>California</h2>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="absolute above">
+          <div class="container">
+            <div class="row">
+
+              <div class="col-md-offset-1 col-md-2">
+                <div class="lg-green rellax"
+                  data-rellax-speed="2"
+                  style="transform: rotate(45deg);">
+                </div>
+                <div class="sm-green rellax"
+                  data-rellax-speed="5"
+                  style="transform: rotate(45deg);">
+                </div>
+              </div>
+
+              <div class="col-md-offset-2 col-md-1">
+                <div class="sm-purple rellax"
+                  data-rellax-speed="2"
+                  style="transform: rotate(45deg);">
+                </div>
+              </div>
+
+              <div class="col-md-offset-3 col-md-1">
+                <div class="xs-green rellax"
+                  data-rellax-speed="5"
+                  style="transform: rotate(45deg);">
+                </div>
+                <div class="md-green rellax"
+                  data-rellax-speed="1"
+                  style="transform: rotate(45deg);">
+                </div>
+              </div>
+
+              <div class="col-md-1">
+                <div class="lg-purple rellax"
+                  data-rellax-speed="3"
+                  style="transform: rotate(45deg);">
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+
+
+        <div class="container">
+
+          <div class="row">
+            <div class="col-md-offset-1 col-md-5">
+              <div class="date">
+                Incorporated—<br>
+                1850<br><br>
+                37°47′N 122°25′W
+              </div>
+            </div>
+            <div class="col-md-offset-1 col-md-4">
+              <div class="temp">
+                68°
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+      </section>
+
+
+      <section class="section">
+
+      </section>
+       
+          <section class="section san-francisco">
+        <div class="absolute">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-offset-1 col-md-11">
+                <h2 class="rellax" data-rellax-speed="-3">San Francisco<br>California</h2>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="absolute above">
+          <div class="container">
+            <div class="row">
+
+              <div class="col-md-offset-1 col-md-2">
+                <div class="lg-green rellax"
+                  data-rellax-speed="2"
+                  style="transform: rotate(45deg);">
+                </div>
+                <div class="sm-green rellax"
+                  data-rellax-speed="5"
+                  style="transform: rotate(45deg);">
+                </div>
+              </div>
+
+              <div class="col-md-offset-2 col-md-1">
+                <div class="sm-purple rellax"
+                  data-rellax-speed="2"
+                  style="transform: rotate(45deg);">
+                </div>
+              </div>
+
+              <div class="col-md-offset-3 col-md-1">
+                <div class="xs-green rellax"
+                  data-rellax-speed="5"
+                  style="transform: rotate(45deg);">
+                </div>
+                <div class="md-green rellax"
+                  data-rellax-speed="1"
+                  style="transform: rotate(45deg);">
+                </div>
+              </div>
+
+              <div class="col-md-1">
+                <div class="lg-purple rellax"
+                  data-rellax-speed="3"
+                  style="transform: rotate(45deg);">
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+
+
+        <div class="container">
+
+          <div class="row">
+            <div class="col-md-offset-1 col-md-5">
+              <div class="date">
+                Incorporated—<br>
+                1850<br><br>
+                37°47′N 122°25′W
+              </div>
+            </div>
+            <div class="col-md-offset-1 col-md-4">
+              <div class="temp">
+                68°
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+      </section>
+
+
+      <section class="section">
+
+      </section>
+       
+          <section class="section san-francisco">
+        <div class="absolute">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-offset-1 col-md-11">
+                <h2 class="rellax" data-rellax-speed="-3">San Francisco<br>California</h2>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="absolute above">
+          <div class="container">
+            <div class="row">
+
+              <div class="col-md-offset-1 col-md-2">
+                <div class="lg-green rellax"
+                  data-rellax-speed="2"
+                  style="transform: rotate(45deg);">
+                </div>
+                <div class="sm-green rellax"
+                  data-rellax-speed="5"
+                  style="transform: rotate(45deg);">
+                </div>
+              </div>
+
+              <div class="col-md-offset-2 col-md-1">
+                <div class="sm-purple rellax"
+                  data-rellax-speed="2"
+                  style="transform: rotate(45deg);">
+                </div>
+              </div>
+
+              <div class="col-md-offset-3 col-md-1">
+                <div class="xs-green rellax"
+                  data-rellax-speed="5"
+                  style="transform: rotate(45deg);">
+                </div>
+                <div class="md-green rellax"
+                  data-rellax-speed="1"
+                  style="transform: rotate(45deg);">
+                </div>
+              </div>
+
+              <div class="col-md-1">
+                <div class="lg-purple rellax"
+                  data-rellax-speed="3"
+                  style="transform: rotate(45deg);">
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+
+
+        <div class="container">
+
+          <div class="row">
+            <div class="col-md-offset-1 col-md-5">
+              <div class="date">
+                Incorporated—<br>
+                1850<br><br>
+                37°47′N 122°25′W
+              </div>
+            </div>
+            <div class="col-md-offset-1 col-md-4">
+              <div class="temp">
+                68°
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+      </section>
+
+
+      <section class="section">
+
+      </section>
+       
+          <section class="section san-francisco">
+        <div class="absolute">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-offset-1 col-md-11">
+                <h2 class="rellax" data-rellax-speed="-3">San Francisco<br>California</h2>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="absolute above">
+          <div class="container">
+            <div class="row">
+
+              <div class="col-md-offset-1 col-md-2">
+                <div class="lg-green rellax"
+                  data-rellax-speed="2"
+                  style="transform: rotate(45deg);">
+                </div>
+                <div class="sm-green rellax"
+                  data-rellax-speed="5"
+                  style="transform: rotate(45deg);">
+                </div>
+              </div>
+
+              <div class="col-md-offset-2 col-md-1">
+                <div class="sm-purple rellax"
+                  data-rellax-speed="2"
+                  style="transform: rotate(45deg);">
+                </div>
+              </div>
+
+              <div class="col-md-offset-3 col-md-1">
+                <div class="xs-green rellax"
+                  data-rellax-speed="5"
+                  style="transform: rotate(45deg);">
+                </div>
+                <div class="md-green rellax"
+                  data-rellax-speed="1"
+                  style="transform: rotate(45deg);">
+                </div>
+              </div>
+
+              <div class="col-md-1">
+                <div class="lg-purple rellax"
+                  data-rellax-speed="3"
+                  style="transform: rotate(45deg);">
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+
+
+        <div class="container">
+
+          <div class="row">
+            <div class="col-md-offset-1 col-md-5">
+              <div class="date">
+                Incorporated—<br>
+                1850<br><br>
+                37°47′N 122°25′W
+              </div>
+            </div>
+            <div class="col-md-offset-1 col-md-4">
+              <div class="temp">
+                68°
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+      </section>
+
+
+      <section class="section">
+
+      </section>
+       
+       
+
+
+    </main>
+
+{% endblock %}

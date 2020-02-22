@@ -1,17 +1,26 @@
-{# Custom Configuration #} {% block config %} {# Setup site's base URL to match
-the "baseUrl" key within `package.json` #} {# Otherwise default to relative
-pathing #} {% set baseUrl = config.baseUrl or './' %} {% endblock %}
+{# Custom Configuration #}
+{% block config %}
+  {# Setup site's base URL to match
+the "baseUrl" key within `package.json` #}
+  {# Otherwise default to relative
+pathing #}
+  {% set baseUrl = config.baseUrl or './' %}
+{% endblock %}
 
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
+    <meta charset="UTF-8"/>
     <title>Fruit parallax animation</title>
-    <link rel="stylesheet" type="text/css" href="/styles/fruitparallax.css" />
+    <link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:600,700,900' rel='stylesheet' type='text/css'>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="/styles/fruitparallax.css"/>
   </head>
   <body>
     <!-- partial:index.partial.html -->
     {% block content %}{% endblock %}
     <!-- partial -->
+    <script src="/scripts/fruitparallax/main.js"></script>
   </body>
 </html>

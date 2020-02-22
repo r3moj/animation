@@ -26,7 +26,8 @@ gulp.task('watch', (done) => {
       [
         `${dirs.source}/**/*`,
         `!${dirs.source}/{**/\_*,**/\_*/**}`,
-        `!${dirs.source}/**/*.nunjucks`
+        `!${dirs.source}/**/*.nunjucks`,
+        `${dirs.source}/_scripts/**/*`,
       ],
       gulp.series("copy")
     );

@@ -18,9 +18,9 @@
 <!-- partial:index.partial.html -->
  {% block content %}{% endblock %}
 <!-- partial -->
-  <script src='/scripts/mask/TweenMax.min.js'></script>
-  <script src='/scripts/mask/DrawSVGPlugin.min.js'></script>
-  <script  src="/scripts/mask/script.js"></script>
+  {# <script src='/scripts/mask/TweenMax.min.js'></script>
+  <script src='/scripts/mask/DrawSVGPlugin.min.js'></script> #}
+  <script  src="/scripts/mask/main.js"></script>
 
 </body>
 </html>

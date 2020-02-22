@@ -6,7 +6,6 @@ import { plugins, args, config, taskTarget, browserSync } from '../utils';
 
 let dirs = config.directories;
 let dest = path.join(taskTarget);
-console.log(dest);
 
 // Copy
 gulp.task('copy', () => {

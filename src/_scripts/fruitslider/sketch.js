@@ -1,5 +1,7 @@
+import THREE from 'three.js';
+import {TimelineMax,Power2} from 'gsap';
 
-class Sketch {
+export default class Sketch {
   constructor(opts) {
     this.scene = new THREE.Scene();
     this.vertex = `varying vec2 vUv;void main() {vUv = uv;gl_Position = projectionMatrix * modelViewMatrix * vec4( position, 1.0 );}`;
@@ -38,7 +40,7 @@ class Sketch {
 
     this.paused = true;
     this.initiate(()=>{
-      console.log(this.textures);
+      //console.log(this.textures);
       this.setupResize();
       this.settings();
       this.addObjects();
@@ -73,13 +75,13 @@ class Sketch {
   }
   settings() {
     let that = this;
-    if(this.debug) this.gui = new dat.GUI();
+    // if(this.debug) this.gui = new dat.GUI();
     this.settings = {progress:0.5};
     // if(this.debug) this.gui.add(this.settings, "progress", 0, 1, 0.01);
 
     Object.keys(this.uniforms).forEach((item)=> {
       this.settings[item] = this.uniforms[item].value;
-      if(this.debug) this.gui.add(this.settings, item, this.uniforms[item].min, this.uniforms[item].max, 0.01);
+      // if(this.debug) this.gui.add(this.settings, item, this.uniforms[item].min, this.uniforms[item].max, 0.01);
     })
   }
 
@@ -142,7 +144,7 @@ class Sketch {
         radius: { type: "f", value: 0 },
         texture1: { type: "f", value: this.textures[0] },
         texture2: { type: "f", value: this.textures[1] },
-        displacement: { type: "f", value: new THREE.TextureLoader().load('img/disp1.jpg') },
+        displacement: { type: "f", value: new THREE.TextureLoader().load('/images/fruitslider/disp1.jpg') },
         resolution: { type: "v4", value: new THREE.Vector4() },
       },
       // wireframe: true,
@@ -176,7 +178,7 @@ class Sketch {
       value:1,
       ease: Power2[this.easing],
       onComplete:()=>{
-        console.log('FINISH');
+        // console.log('FINISH');
         this.current = (this.current +1)%len;
         this.material.uniforms.texture1.value = nextTexture;
         this.material.uniforms.progress.value = 0;

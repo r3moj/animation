@@ -1,15 +1,22 @@
+"use strict";
 
-let sketch = new Sketch({
-	duration: 1.5,
-	debug: true,
-	easing: 'easeOut',
-	uniforms: {
-		width: {value: 0.85, type:'f', min:0, max:10},
-		scaleX: {value: 10.37, type:'f', min:0.1, max:60},
-		scaleY: {value: 40, type:'f', min:0.1, max:60},
-		// border: {value: 1, type:'f', min:0., max:1},
-	},
-	fragment: `
+import "core-js";
+import "regenerator-runtime/runtime";
+import $ from "jquery";
+import Sketch from './sketch';
+
+$(() => {
+  let sketch = new Sketch({
+    duration: 1.5,
+    debug: true,
+    easing: "easeOut",
+    uniforms: {
+      width: { value: 0.85, type: "f", min: 0, max: 10 },
+      scaleX: { value: 10.37, type: "f", min: 0.1, max: 60 },
+      scaleY: { value: 40, type: "f", min: 0.1, max: 60 }
+      // border: {value: 1, type:'f', min:0., max:1},
+    },
+    fragment: `
 		uniform float time;
 		uniform float progress;
 		uniform float width;
@@ -201,6 +208,5 @@ let sketch = new Sketch({
 			// gl_FragColor =vec4(maskvalue0,final,0.,1.);
 		}
 	`
+  });
 });
-
-

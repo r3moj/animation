@@ -2,10 +2,10 @@
 as link %} {% block content %}
 <div class="main-container">
   <ul>
-    <li>Fruit Parallax</li>
-    <li><a href="pages/fruitslider/index.html" target="_blank">Fruit Slider</a> </li>
-    <li><a href="pages/mask/index.html" target="_blank">Mask</a> </li>
-    <li><a href="pages/water/index.html" target="_blank">Water</a></li>
+    <li><a href="pages/fruitparallax/" target="_blank">Fruit Parallax</a></li>
+    <li><a href="pages/fruitslider/" target="_blank">Fruit Slider</a> </li>
+    <li><a href="pages/mask/" target="_blank">Mask</a> </li>
+    <li><a href="pages/water/" target="_blank">Water</a></li>
   </ul>
 </div>
 

@@ -14,10 +14,6 @@ pathing #} {% set baseUrl = config.baseUrl or './' %} {% endblock %}
     <!-- partial:index.partial.html -->
     {% block content %}{% endblock %}
     <!-- partial -->
-    <script src="/scripts/fruitslider/three.js"></script>
-    <script src="/scripts/fruitslider/dat-gui.js"></script>
-    <script src="/scripts/fruitslider/gsap.js"></script>
-    <script src="/scripts/fruitslider/sketch.js"></script>
-    <script src="/scripts/fruitslider/demo1.js"></script>
+    <script src="/scripts/fruitslider/main.js"></script>
   </body>
 </html>
