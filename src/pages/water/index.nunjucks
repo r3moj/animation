@@ -1,5 +1,8 @@
 {% extends '_layouts/water.nunjucks' %} 
 
 {% block content %}
-
+{# <div class="gradient"></div>
+<div class="bottle j-ripples"> #}
+    
+</div>
 {% endblock %}

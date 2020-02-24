@@ -12,6 +12,11 @@ $(() => {
   $("body").ripples({
     resolution: 512,
     dropRadius: 20,
-    perturbance: 0.04
+    perturbance: 0.03
   });
+  // $(".j-ripples").ripples({
+  //   resolution: 250,
+  //   dropRadius: 20,
+  //   perturbance: 0.03
+  // });
 });
