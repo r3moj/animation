@@ -2,7 +2,7 @@
   "name": "animation",
   "version": "0.0.1",
   "dependencies": {
-    "jquery": "~3.4.1",
+    "jquery": "~3.5.0",
     "jquery.ripples": "0.6.3",
     "normalize.css": "~8.0.1",
     "gsap": "3.2.0",
